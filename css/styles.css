@@ -273,8 +273,7 @@ img {
   margin: 94px 200px 90px;
 }
 .invisible {
-  margin: -1 0 0;
-  padding: ;
+  margin: -1px 0 0;
   font-size: 1px;
   opacity: 0;
 }
