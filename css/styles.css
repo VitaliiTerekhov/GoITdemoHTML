@@ -273,23 +273,10 @@ img {
   margin: 94px 200px 90px;
 }
 .invisible {
-  margin: -1px 0 0;
-  padding: 0;
+  margin: -1 0 0;
+  padding: ;
   font-size: 1px;
   opacity: 0;
-   {
-    color: rgba(0, 0, 0, 0);
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
 }
 .filters {
   list-style-type: none;
