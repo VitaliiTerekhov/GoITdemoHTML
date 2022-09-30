@@ -272,6 +272,25 @@ img {
 .projects-main {
   margin: 94px 200px 90px;
 }
+.invisible {
+  margin: -1px 0 0;
+  padding: 0;
+  font-size: 1px;
+  opacity: 0;
+   {
+    color: rgba(0, 0, 0, 0);
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+}
 .filters {
   list-style-type: none;
   display: flex;
@@ -292,8 +311,9 @@ img {
   background-color: var(--background-color);
   border-radius: 4px;
   border: none;
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   transition: all 0.4ms ease-in-out;
+  cursor: pointer;
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -331,4 +351,5 @@ img {
   margin: 0 24px 20px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  color: var(--text-color);
 }
